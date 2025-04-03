@@ -6,7 +6,7 @@
 	$id = 0;
 
 
-	$conn = new mysqli("localhost", "root", "calendar", "dataCamendar"); //connects to database
+	$conn = new mysqli("localhost", "dataCammerism", "calendar", "dataCamendar"); //connects to database
 	// (user, pass, database name)
 	if( $conn->connect_error )
 	{
